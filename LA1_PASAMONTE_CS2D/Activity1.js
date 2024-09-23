@@ -1,3 +1,4 @@
+//variables
 let name = "CLaire Agwayaway Pasamonte";
 let whatDoYouWannaBecomeInYourLife = "Programmer";
 let gender = "Female";
