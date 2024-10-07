@@ -1,0 +1,16 @@
+// File: iterationMapping.js
+
+// Function to create a double loop and log the result of each iteration
+function iterationMapping(maxLimit) {
+    // Initialize all counters compared to the max limit
+    for (let i = 0; i <= maxLimit; i++) {
+        for (let j = 0; j <= maxLimit; j++) {
+            // Log the current iteration and the added value (sum of i and j)
+            console.log(`[${i}] [${j}] Added value is ${i + j}`);
+        }
+    }
+}
+
+// Example: User inputs Max Limit of 2
+let maxLimit = 2;
+iterationMapping(maxLimit);
